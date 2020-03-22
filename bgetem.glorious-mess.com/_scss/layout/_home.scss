@@ -1,0 +1,137 @@
+// layout/_home.scss
+
+div.container.content-type-home {
+
+}
+
+article.home {
+	*.section-header {
+		letter-spacing: .5px;
+	}
+	header.header-home {
+			
+			
+			div.hero-image {
+				position: relative;
+				padding: 0;
+				margin: 0;
+				background-size: cover !important;
+			    background-repeat: no-repeat !important;
+			    background-position: center center !important;
+				div.headline {
+					position: absolute;
+					background: rgba(9,78,159,0.8);
+					color: white;
+					width: 100%;
+					padding: 12px 24px;
+					bottom: 0;
+					h1 {
+						line-height: 1;
+					}
+					* {
+						color: white;
+					}
+					a.more-link {
+						@include arrowed-intern-link('FFFFFF');
+					}
+					@include xl {
+						padding: 48px 0;
+					}
+				}
+				@include for-phone-only {
+					height: 400px;
+					div.headline {
+
+						// height: 160px;
+						// bottom: -160px;
+					}
+				}
+				@include sm {
+					height: 300px;
+					div.headline {
+						// bottom:10%;
+						// left: 5%;
+						// width: 40%;
+					}
+
+				}
+				@include md {
+					
+				}
+				@include lg {
+					height: 400px;
+				}
+				@include xl {
+					height: 550px;
+				}
+				@media screen and (min-width: 1800px) {
+					height: 800px;
+				}
+			}
+			
+		}
+	section.home-section {
+		padding: 48px 0;
+		@include lg() {
+			padding: 96px 0;
+		}
+		h2.section-header {
+			text-transform: uppercase;
+			font-weight: 600;
+		}
+		article {
+			h1 {
+				margin-left: 0;
+				font-weight: 600;
+			}
+			div.news-item__image {
+				margin-bottom: 24px;
+			}
+		}
+
+		&.psychische-gesundheit {
+div.header-image {
+				img {
+					//border-radius: 50%;
+				}
+				@include lg {
+					margin-bottom: 48px;
+				}
+			}
+		}
+		&.news {
+			background: $dguv-grau-9;
+		}
+		&.seminare {
+
+			div.row {
+				align-items: center;
+			}
+			div.header-image {
+				img {
+					//border-radius: 50%;
+				}
+				@include lg {
+					margin-bottom: 48px;
+				}
+			}
+		}
+		&.kontakt {
+			background: $dguv-grau-9;
+			div.row {
+
+			}
+			div.body svg {
+				width: 100%;
+				max-width: 100px;
+			}
+		}
+		&.jobs {
+
+		}
+		&.termine {
+
+		}
+	}
+}
+

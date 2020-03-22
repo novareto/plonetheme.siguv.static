@@ -1,0 +1,24 @@
+article {
+	footer.article-footer.doc-actions {
+		margin-top: 48px;
+		margin-bottom: 48px;
+		@include lg {
+			margin-bottom: 96px;
+		}
+		@extend .quiet;
+		h5 {
+			display: none;
+		}
+		ul.docactions {
+			li {
+				@extend .inline-list;
+				margin-right: 10px;
+				&:not(:last-child):after {
+					content: "|";
+					//font-weight: 600;
+					padding-left: 10px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+nav.breadcrumb {
+	flex: 0 0 auto;
+	padding: 24px 0;
+	background: transparent;
+	margin: 0;
+	ol.breadcrumb {
+		margin: 0;
+		li.breadcrumb-item {
+			a {
+				color: $dguv-blau-2;
+			}
+		}
+	} 
+}
+
