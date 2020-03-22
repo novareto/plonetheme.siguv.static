@@ -1,0 +1,42 @@
+// layout/_article.scss
+
+article {
+
+
+	section.article-body {
+		// padding-right: 10%;
+	}
+}
+
+p.roof-row {
+	// color: $middle-grey;
+	letter-spacing: .3px;
+	margin-bottom: 6px;
+	// font-family: "DGUVMetaWeb Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+@include for-phone-only() {
+
+}
+@include sm() {
+
+}
+@include md() {
+
+}
+@include lg() {
+	article {
+		header {
+			h1 {
+				margin-left: -3px;
+			}
+		}
+
+		section.article-body {
+			// padding-right: 10%;
+		}
+	}
+}
+@include xl() {
+	
+}

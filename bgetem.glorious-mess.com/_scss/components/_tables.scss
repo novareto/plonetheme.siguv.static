@@ -1,0 +1,26 @@
+table {
+	* {
+		text-align: left !important;
+		td {
+			p {
+				font-weight: 400;
+				line-height: 1.3em;
+			}
+		}
+	}
+	thead {
+		background: $dguv-blau-2;
+		color: white;
+	}
+	section.article-body & {
+		margin: 48px 0;
+		td {
+			padding-top: 12px;
+			padding-bottom: 12px;
+			p {
+				font-weight: 400;
+				line-height: 1.3em;
+			}	
+		}
+	}
+}

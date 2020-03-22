@@ -1,0 +1,24 @@
+ul {
+	&.listing.folder_summary_view {
+		li {
+			
+			//background: blue;
+			//border-top: 1px solid $dguv-grau-6;;
+			//margin-bottom: 24px;
+			a {
+				display: block;
+				//@include arrowed-intern-link('0063af');
+				//padding: 24px 0;
+				&:after {
+					float: right;
+				}
+				&:hover {
+					
+				}
+				&:visited {
+					//@include arrowed-intern-link('878787');
+				}
+			}
+		}
+	}
+}

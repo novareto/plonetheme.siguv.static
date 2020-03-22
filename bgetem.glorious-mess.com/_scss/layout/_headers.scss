@@ -1,0 +1,15 @@
+// partials/_header.scss
+
+header {
+	article & {
+		margin-bottom: 36px;
+		div.dot {
+			width: 16px;
+			height: 16px;
+			//display: inline;
+			float: left;
+			margin-right: 10px;
+			margin-top: 2px;
+		}
+	}
+}
